@@ -21,5 +21,8 @@
     <ClCompile Include="invest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="primes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,2 +1,4 @@
-﻿  invest.cpp
+﻿  primes.cpp
+  invest.cpp
 c:\users\karenna maaser\documents\github\lab-6\lab6\lab6\invest.cpp(18): error C2143: syntax error: missing ';' before 'for'
+  Generating Code...

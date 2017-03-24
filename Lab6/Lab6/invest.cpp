@@ -15,7 +15,7 @@ int main() {
 	cout << "Enter number of years: " << endl;
 	cin >> years
 
-	for(int i = 0; i < years; i++) {
+	for (int i = 0; i < years; i++); {
 		balance += principal;
 		balance += principal*interestrate;
 	}
