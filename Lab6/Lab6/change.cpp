@@ -4,27 +4,38 @@ using namespace std;
 
 int main() {
 
-	int amount, penny = 0, nickle = 0, dime = 0, quarter = 0;
+	int amount, pennies = 0, nickles = 0, dimes = 0, quarters = 0;
 
 	cout << "Enter amount (0 - 99): ";
 	cin >> amount;
 
 	while (amount >= 25) {
 		amount -= 25;
-		quarter++;
+		quarters++;
 	}
 	while (amount >= 10) {
 		amount -= 10;
-		dime++;
+		dimes++;
 	}
 	while (amount >= 5) {
 		amount -= 5;
-		nickle++;
+		nickles++;
 	}
 	while (amount >= 1) {
 		amount -= 1;
-		penny++;
+		pennies++;
 	}
-
+	if (pennies > 0) {
+		cout << "Pennies: " << pennies;
+	}
+	if (nickles > 0) {
+		cout << "Nickles: " << nickles;
+	}
+	if (dimes > 0) {
+		cout << "Dimes: " << dimes;
+	}
+	if (quarters > 0) {
+		cout << "Quarters: " << quarters;
+	}
 	return 0;
 }
