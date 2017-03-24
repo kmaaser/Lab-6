@@ -1,3 +1,2 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\users\karenna maaser\documents\github\lab-6\lab6\debug\lab6.exe' is denied.
-  change.cpp
-LINK : fatal error LNK1104: cannot open file 'C:\Users\Karenna Maaser\Documents\GitHub\Lab-6\Lab6\Debug\Lab6.exe'
+﻿  invest.cpp
+c:\users\karenna maaser\documents\github\lab-6\lab6\lab6\invest.cpp(18): error C2143: syntax error: missing ';' before 'for'

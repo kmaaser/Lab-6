@@ -18,5 +18,8 @@
     <ClCompile Include="change.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="invest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
