@@ -25,17 +25,17 @@ int main() {
 		amount -= 1;
 		pennies++;
 	}
-	if (pennies > 0) {
-		cout << "Pennies: " << pennies;
-	}
-	if (nickles > 0) {
-		cout << "Nickles: " << nickles;
+	if (quarters > 0) {
+		cout << "Quarters: " << quarters;
 	}
 	if (dimes > 0) {
 		cout << "Dimes: " << dimes;
 	}
-	if (quarters > 0) {
-		cout << "Quarters: " << quarters;
+	if (nickles > 0) {
+		cout << "Nickles: " << nickles;
+	}
+	if (pennies > 0) {
+		cout << "Pennies: " << pennies;
 	}
 	return 0;
 }
