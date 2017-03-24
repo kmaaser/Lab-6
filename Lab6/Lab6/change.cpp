@@ -26,16 +26,16 @@ int main() {
 		pennies++;
 	}
 	if (quarters > 0) {
-		cout << "Quarters: " << quarters;
+		cout << "Quarters: " << quarters << endl;
 	}
 	if (dimes > 0) {
-		cout << "Dimes: " << dimes;
+		cout << "Dimes: " << dimes << endl;
 	}
 	if (nickles > 0) {
-		cout << "Nickles: " << nickles;
+		cout << "Nickles: " << nickles << endl;
 	}
 	if (pennies > 0) {
-		cout << "Pennies: " << pennies;
+		cout << "Pennies: " << pennies << endl;
 	}
 	return 0;
 }
